@@ -31,7 +31,7 @@ const startServer = async () => {
     const PORT: number = config.PORT;
     app.listen(PORT)
     console.log(
-      `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
+      `Elysia is running at ${app.server?.hostname}:${app.server?.port}`
     );
   }
 }
